@@ -14,4 +14,4 @@
 
 ## Responsive mobile version is also available.
 
-### Negative cases are addressed: max number of characters(12), no input, value === 1 (metric's endings), negative values.
+Negative cases are also addressed: max number of characters(12), no input, value === 1 (metric's endings), negative values.
