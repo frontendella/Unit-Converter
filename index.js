@@ -4,6 +4,13 @@ const litersToGallons = document.getElementById("liters_to_gallons")
 const kilosToPounds = document.getElementById("kilos_to_pounds")
 let input = document.getElementById("entered")
 
+function limit(input) {
+    var max_chars = 12;
+    if (input.value.length > max_chars) {
+        input.value = input.value.substr(0, max_chars);
+        alert("You entered max number")
+    }
+}
 
 clickedButton.addEventListener("click", () => {
     let enteredValue = document.getElementById("entered").value
